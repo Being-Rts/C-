@@ -1,0 +1,20 @@
+MODULAR PROGRAMMING 
+In MODULAR PROGRAMMING(Collection of Function) we develop program in function.
+e.g. Bank system
+openacc()
+{
+    deposit()
+    withdraw()
+    checkbal()
+    applyloan()
+}
+
+In Object Oriented PROGRAMMING - Collection of Object. Every Object has its collection offuction.
+OOP is suitable best for Large size project.
+
+**********PRINCIPLES OF OBJECT ORIENTATION****************************
+1. ABSTRACTION - To hide internal details about How it works from user. e.g printf() function
+2. ENCAPSULATION-To avoid system from mishandling ENCAPSULATION is required.
+                 We hide the Data and show the function (Data Hiding)
+3. INHERITANCE
+4. POLYMORPHISM

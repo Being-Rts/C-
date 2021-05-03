@@ -1,0 +1,13 @@
+Class VS Object
+
+class Rectangle   //Rectangle is class having various Function. A class contains Data & Functions
+{
+    int breadth;
+    int length;
+    float area();
+    float perimeter();
+    float diagonal();
+}
+Rectangle1
+Rectangle2
+Rectangle3 // These are Objects
