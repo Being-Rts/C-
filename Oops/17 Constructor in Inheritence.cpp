@@ -30,4 +30,5 @@ int main()
 {
     Base B();
     Derived D(6);
+    Derived D1; //this will call base them
 }

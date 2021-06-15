@@ -34,15 +34,23 @@ public:
 };
 class grandchild : private child // all accessible data or fun will be stored in private access
 {
+public:
     void funparent()
     {
         b = 3454;
         child ch; // object can only access public data
         // ch.b = 77; // b is protected can't be accessed by object but we can access using inherited class
         ch.c = 56;
+        cout << b << " " << c << endl;
     }
 };
 
 int main()
 {
+    parent p;
+    p.funparent();
+    child c;
+    c.funparent();
+    grandchild g;
+    g.funparent();
 }

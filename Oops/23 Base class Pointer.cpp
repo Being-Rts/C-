@@ -21,6 +21,9 @@ int main()
 {
     advancecar a;
     basiccar *ptr = &a;
+    advancecar *ptr1 = &a;
     ptr->start();
-    ptr->play(); //can't be accessed using base function because it is func of child
+    a.start();
+    a.play();
+    //ptr->play(); //can't be accessed using base function because it is func of child
 }

@@ -18,4 +18,4 @@ class use
 {
     parent p;
     //using parent as object
-}
+};

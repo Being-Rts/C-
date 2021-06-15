@@ -18,8 +18,11 @@ int main()
 {
     Rectangle r; //Object created in stack
     Rectangle *p;
+    int *ptr;
     p = &r;
     p->length = 15; //-> Dereferencing
     p->breadth = 10;
     cout << p->area() << endl;
+    cout << r.area() << endl; //same as p->area()
+    // ptr = &r; if we assign avalue then typr should be same
 }
