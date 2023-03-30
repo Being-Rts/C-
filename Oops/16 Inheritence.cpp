@@ -3,7 +3,7 @@ using namespace std;
 class rectangle
 {
     int len, bre;
-
+    
 public:
     rectangle(int l = 0, int b = 0)
     {
